@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84477FAB26F06F0100A568C6 /* PreciousMetalsPricesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477FAA26F06F0100A568C6 /* PreciousMetalsPricesApp.swift */; };
+		84477FAD26F06F0100A568C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477FAC26F06F0100A568C6 /* ContentView.swift */; };
+		84477FAF26F06F0200A568C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84477FAE26F06F0200A568C6 /* Assets.xcassets */; };
+		84477FB226F06F0200A568C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84477FB126F06F0200A568C6 /* Preview Assets.xcassets */; };
+		84477FBD26F06F0300A568C6 /* PreciousMetalsPricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477FBC26F06F0300A568C6 /* PreciousMetalsPricesTests.swift */; };
+		84477FC826F06F0300A568C6 /* PreciousMetalsPricesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477FC726F06F0300A568C6 /* PreciousMetalsPricesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84477FB926F06F0300A568C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84477F9F26F06F0100A568C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84477FA626F06F0100A568C6;
+			remoteInfo = PreciousMetalsPrices;
+		};
+		84477FC426F06F0300A568C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84477F9F26F06F0100A568C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84477FA626F06F0100A568C6;
+			remoteInfo = PreciousMetalsPrices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84477FA726F06F0100A568C6 /* PreciousMetalsPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreciousMetalsPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84477FAA26F06F0100A568C6 /* PreciousMetalsPricesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreciousMetalsPricesApp.swift; sourceTree = "<group>"; };
+		84477FAC26F06F0100A568C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84477FAE26F06F0200A568C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84477FB126F06F0200A568C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84477FB326F06F0200A568C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84477FB826F06F0300A568C6 /* PreciousMetalsPricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreciousMetalsPricesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84477FBC26F06F0300A568C6 /* PreciousMetalsPricesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreciousMetalsPricesTests.swift; sourceTree = "<group>"; };
+		84477FBE26F06F0300A568C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84477FC326F06F0300A568C6 /* PreciousMetalsPricesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreciousMetalsPricesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84477FC726F06F0300A568C6 /* PreciousMetalsPricesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreciousMetalsPricesUITests.swift; sourceTree = "<group>"; };
+		84477FC926F06F0300A568C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84477FA426F06F0100A568C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84477FB526F06F0300A568C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84477FC026F06F0300A568C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84477F9E26F06F0100A568C6 = {
+			isa = PBXGroup;
+			children = (
+				84477FA926F06F0100A568C6 /* PreciousMetalsPrices */,
+				84477FBB26F06F0300A568C6 /* PreciousMetalsPricesTests */,
+				84477FC626F06F0300A568C6 /* PreciousMetalsPricesUITests */,
+				84477FA826F06F0100A568C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84477FA826F06F0100A568C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84477FA726F06F0100A568C6 /* PreciousMetalsPrices.app */,
+				84477FB826F06F0300A568C6 /* PreciousMetalsPricesTests.xctest */,
+				84477FC326F06F0300A568C6 /* PreciousMetalsPricesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84477FA926F06F0100A568C6 /* PreciousMetalsPrices */ = {
+			isa = PBXGroup;
+			children = (
+				84477FAA26F06F0100A568C6 /* PreciousMetalsPricesApp.swift */,
+				84477FAC26F06F0100A568C6 /* ContentView.swift */,
+				84477FAE26F06F0200A568C6 /* Assets.xcassets */,
+				84477FB326F06F0200A568C6 /* Info.plist */,
+				84477FB026F06F0200A568C6 /* Preview Content */,
+			);
+			path = PreciousMetalsPrices;
+			sourceTree = "<group>";
+		};
+		84477FB026F06F0200A568C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84477FB126F06F0200A568C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84477FBB26F06F0300A568C6 /* PreciousMetalsPricesTests */ = {
+			isa = PBXGroup;
+			children = (
+				84477FBC26F06F0300A568C6 /* PreciousMetalsPricesTests.swift */,
+				84477FBE26F06F0300A568C6 /* Info.plist */,
+			);
+			path = PreciousMetalsPricesTests;
+			sourceTree = "<group>";
+		};
+		84477FC626F06F0300A568C6 /* PreciousMetalsPricesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84477FC726F06F0300A568C6 /* PreciousMetalsPricesUITests.swift */,
+				84477FC926F06F0300A568C6 /* Info.plist */,
+			);
+			path = PreciousMetalsPricesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84477FA626F06F0100A568C6 /* PreciousMetalsPrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84477FCC26F06F0300A568C6 /* Build configuration list for PBXNativeTarget "PreciousMetalsPrices" */;
+			buildPhases = (
+				84477FA326F06F0100A568C6 /* Sources */,
+				84477FA426F06F0100A568C6 /* Frameworks */,
+				84477FA526F06F0100A568C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreciousMetalsPrices;
+			productName = PreciousMetalsPrices;
+			productReference = 84477FA726F06F0100A568C6 /* PreciousMetalsPrices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84477FB726F06F0300A568C6 /* PreciousMetalsPricesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84477FCF26F06F0300A568C6 /* Build configuration list for PBXNativeTarget "PreciousMetalsPricesTests" */;
+			buildPhases = (
+				84477FB426F06F0300A568C6 /* Sources */,
+				84477FB526F06F0300A568C6 /* Frameworks */,
+				84477FB626F06F0300A568C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84477FBA26F06F0300A568C6 /* PBXTargetDependency */,
+			);
+			name = PreciousMetalsPricesTests;
+			productName = PreciousMetalsPricesTests;
+			productReference = 84477FB826F06F0300A568C6 /* PreciousMetalsPricesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84477FC226F06F0300A568C6 /* PreciousMetalsPricesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84477FD226F06F0300A568C6 /* Build configuration list for PBXNativeTarget "PreciousMetalsPricesUITests" */;
+			buildPhases = (
+				84477FBF26F06F0300A568C6 /* Sources */,
+				84477FC026F06F0300A568C6 /* Frameworks */,
+				84477FC126F06F0300A568C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84477FC526F06F0300A568C6 /* PBXTargetDependency */,
+			);
+			name = PreciousMetalsPricesUITests;
+			productName = PreciousMetalsPricesUITests;
+			productReference = 84477FC326F06F0300A568C6 /* PreciousMetalsPricesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84477F9F26F06F0100A568C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					84477FA626F06F0100A568C6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					84477FB726F06F0300A568C6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 84477FA626F06F0100A568C6;
+					};
+					84477FC226F06F0300A568C6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 84477FA626F06F0100A568C6;
+					};
+				};
+			};
+			buildConfigurationList = 84477FA226F06F0100A568C6 /* Build configuration list for PBXProject "PreciousMetalsPrices" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84477F9E26F06F0100A568C6;
+			productRefGroup = 84477FA826F06F0100A568C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84477FA626F06F0100A568C6 /* PreciousMetalsPrices */,
+				84477FB726F06F0300A568C6 /* PreciousMetalsPricesTests */,
+				84477FC226F06F0300A568C6 /* PreciousMetalsPricesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84477FA526F06F0100A568C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84477FB226F06F0200A568C6 /* Preview Assets.xcassets in Resources */,
+				84477FAF26F06F0200A568C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84477FB626F06F0300A568C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84477FC126F06F0300A568C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84477FA326F06F0100A568C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84477FAD26F06F0100A568C6 /* ContentView.swift in Sources */,
+				84477FAB26F06F0100A568C6 /* PreciousMetalsPricesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84477FB426F06F0300A568C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84477FBD26F06F0300A568C6 /* PreciousMetalsPricesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84477FBF26F06F0300A568C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84477FC826F06F0300A568C6 /* PreciousMetalsPricesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84477FBA26F06F0300A568C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84477FA626F06F0100A568C6 /* PreciousMetalsPrices */;
+			targetProxy = 84477FB926F06F0300A568C6 /* PBXContainerItemProxy */;
+		};
+		84477FC526F06F0300A568C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84477FA626F06F0100A568C6 /* PreciousMetalsPrices */;
+			targetProxy = 84477FC426F06F0300A568C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84477FCA26F06F0300A568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84477FCB26F06F0300A568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84477FCD26F06F0300A568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PreciousMetalsPrices/Preview Content\"";
+				DEVELOPMENT_TEAM = 45422V4NWB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PreciousMetalsPrices/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PreciousMetalsPrices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84477FCE26F06F0300A568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PreciousMetalsPrices/Preview Content\"";
+				DEVELOPMENT_TEAM = 45422V4NWB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PreciousMetalsPrices/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PreciousMetalsPrices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84477FD026F06F0300A568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45422V4NWB;
+				INFOPLIST_FILE = PreciousMetalsPricesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PreciousMetalsPricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PreciousMetalsPrices.app/PreciousMetalsPrices";
+			};
+			name = Debug;
+		};
+		84477FD126F06F0300A568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45422V4NWB;
+				INFOPLIST_FILE = PreciousMetalsPricesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PreciousMetalsPricesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PreciousMetalsPrices.app/PreciousMetalsPrices";
+			};
+			name = Release;
+		};
+		84477FD326F06F0300A568C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45422V4NWB;
+				INFOPLIST_FILE = PreciousMetalsPricesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PreciousMetalsPricesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PreciousMetalsPrices;
+			};
+			name = Debug;
+		};
+		84477FD426F06F0300A568C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45422V4NWB;
+				INFOPLIST_FILE = PreciousMetalsPricesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PreciousMetalsPricesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PreciousMetalsPrices;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84477FA226F06F0100A568C6 /* Build configuration list for PBXProject "PreciousMetalsPrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84477FCA26F06F0300A568C6 /* Debug */,
+				84477FCB26F06F0300A568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84477FCC26F06F0300A568C6 /* Build configuration list for PBXNativeTarget "PreciousMetalsPrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84477FCD26F06F0300A568C6 /* Debug */,
+				84477FCE26F06F0300A568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84477FCF26F06F0300A568C6 /* Build configuration list for PBXNativeTarget "PreciousMetalsPricesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84477FD026F06F0300A568C6 /* Debug */,
+				84477FD126F06F0300A568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84477FD226F06F0300A568C6 /* Build configuration list for PBXNativeTarget "PreciousMetalsPricesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84477FD326F06F0300A568C6 /* Debug */,
+				84477FD426F06F0300A568C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84477F9F26F06F0100A568C6 /* Project object */;
+}
