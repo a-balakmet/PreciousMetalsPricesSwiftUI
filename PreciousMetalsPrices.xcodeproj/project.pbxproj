@@ -13,6 +13,26 @@
 		84477FB226F06F0200A568C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84477FB126F06F0200A568C6 /* Preview Assets.xcassets */; };
 		84477FBD26F06F0300A568C6 /* PreciousMetalsPricesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477FBC26F06F0300A568C6 /* PreciousMetalsPricesTests.swift */; };
 		84477FC826F06F0300A568C6 /* PreciousMetalsPricesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84477FC726F06F0300A568C6 /* PreciousMetalsPricesUITests.swift */; };
+		844939D926F84599004C754D /* MetalItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844939D826F84599004C754D /* MetalItem.swift */; };
+		844939DB26F84D6F004C754D /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844939DA26F84D6F004C754D /* Divider.swift */; };
+		844939DE26F850E0004C754D /* DataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844939DC26F85061004C754D /* DataList.swift */; };
+		8450A90527144A6400022934 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8450A90427144A6400022934 /* Launch Screen.storyboard */; };
+		8459920226F098DC001BC64F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8459920426F098DC001BC64F /* Localizable.strings */; };
+		845AF35526F1FB5B00D8F059 /* PricesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AF35426F1FB5B00D8F059 /* PricesData.swift */; };
+		845AF35B26F1FE7800D8F059 /* SilverPricesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AF35A26F1FE7800D8F059 /* SilverPricesList.swift */; };
+		845AF35D26F2058300D8F059 /* MetalsPricesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AF35C26F2058300D8F059 /* MetalsPricesList.swift */; };
+		845AF35F26F20F4F00D8F059 /* DataLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AF35E26F20F4F00D8F059 /* DataLoad.swift */; };
+		845AF36226F20F9F00D8F059 /* LinkGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AF36126F20F9F00D8F059 /* LinkGenerator.swift */; };
+		848FA20227152B33009D60BB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FA20127152B33009D60BB /* Reachability.swift */; };
+		848FA20427152DDE009D60BB /* LoadingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FA20327152DDE009D60BB /* LoadingWindow.swift */; };
+		848FA20627153135009D60BB /* NoNetWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FA20527153135009D60BB /* NoNetWindow.swift */; };
+		84926FBA27154DEF00DC6C42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84926FBC27154DEF00DC6C42 /* InfoPlist.strings */; };
+		84A1ED1E2713E90C00C10D96 /* RoundCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1ED1D2713E90C00C10D96 /* RoundCornersShape.swift */; };
+		84D03D4326F75B3A00DABF34 /* SilverItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D03D4226F75B3A00DABF34 /* SilverItem.swift */; };
+		84D7902726F865FD009642AE /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7902626F865FD009642AE /* Converters.swift */; };
+		84E9966126F9BFA100A46461 /* AppObservables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9966026F9BFA100A46461 /* AppObservables.swift */; };
+		84E9966326F9BFE600A46461 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9966226F9BFE600A46461 /* DatePickerDialog.swift */; };
+		84F83C2D26F8917A0065AB0F /* DateReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F83C2C26F8917A0065AB0F /* DateReturn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +58,44 @@
 		84477FAC26F06F0100A568C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84477FAE26F06F0200A568C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84477FB126F06F0200A568C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		84477FB326F06F0200A568C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84477FB826F06F0300A568C6 /* PreciousMetalsPricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreciousMetalsPricesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84477FBC26F06F0300A568C6 /* PreciousMetalsPricesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreciousMetalsPricesTests.swift; sourceTree = "<group>"; };
 		84477FBE26F06F0300A568C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84477FC326F06F0300A568C6 /* PreciousMetalsPricesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreciousMetalsPricesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84477FC726F06F0300A568C6 /* PreciousMetalsPricesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreciousMetalsPricesUITests.swift; sourceTree = "<group>"; };
 		84477FC926F06F0300A568C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844939D826F84599004C754D /* MetalItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalItem.swift; sourceTree = "<group>"; };
+		844939DA26F84D6F004C754D /* Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
+		844939DC26F85061004C754D /* DataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataList.swift; sourceTree = "<group>"; };
+		8450A90427144A6400022934 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8459920326F098DC001BC64F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8459920526F09925001BC64F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		845AF35426F1FB5B00D8F059 /* PricesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricesData.swift; sourceTree = "<group>"; };
+		845AF35A26F1FE7800D8F059 /* SilverPricesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverPricesList.swift; sourceTree = "<group>"; };
+		845AF35C26F2058300D8F059 /* MetalsPricesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalsPricesList.swift; sourceTree = "<group>"; };
+		845AF35E26F20F4F00D8F059 /* DataLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoad.swift; sourceTree = "<group>"; };
+		845AF36126F20F9F00D8F059 /* LinkGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkGenerator.swift; sourceTree = "<group>"; };
+		848FA20127152B33009D60BB /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		848FA20327152DDE009D60BB /* LoadingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingWindow.swift; sourceTree = "<group>"; };
+		848FA20527153135009D60BB /* NoNetWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetWindow.swift; sourceTree = "<group>"; };
+		84926FAF271544BC00DC6C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		84926FBB27154DEF00DC6C42 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84926FBD27154DF300DC6C42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84926FBE27154F0A00DC6C42 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84926FBF27154F0A00DC6C42 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84926FC027154F0A00DC6C42 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Info.plist; sourceTree = "<group>"; };
+		84926FC12715506700DC6C42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84926FC22715506700DC6C42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84926FC32715506700DC6C42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Info.plist; sourceTree = "<group>"; };
+		84926FC4271551C000DC6C42 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84926FC5271551C000DC6C42 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84926FC6271551C000DC6C42 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Info.plist; sourceTree = "<group>"; };
+		84A1ED1D2713E90C00C10D96 /* RoundCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornersShape.swift; sourceTree = "<group>"; };
+		84D03D4226F75B3A00DABF34 /* SilverItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverItem.swift; sourceTree = "<group>"; };
+		84D7902626F865FD009642AE /* Converters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converters.swift; sourceTree = "<group>"; };
+		84E9966026F9BFA100A46461 /* AppObservables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppObservables.swift; sourceTree = "<group>"; };
+		84E9966226F9BFE600A46461 /* DatePickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		84F83C2C26F8917A0065AB0F /* DateReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateReturn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +126,7 @@
 		84477F9E26F06F0100A568C6 = {
 			isa = PBXGroup;
 			children = (
+				84926FBC27154DEF00DC6C42 /* InfoPlist.strings */,
 				84477FA926F06F0100A568C6 /* PreciousMetalsPrices */,
 				84477FBB26F06F0300A568C6 /* PreciousMetalsPricesTests */,
 				84477FC626F06F0300A568C6 /* PreciousMetalsPricesUITests */,
@@ -95,11 +147,19 @@
 		84477FA926F06F0100A568C6 /* PreciousMetalsPrices */ = {
 			isa = PBXGroup;
 			children = (
+				84E9965F26F9BF5A00A46461 /* Observables */,
+				84E9965E26F9BF3400A46461 /* UIAdds */,
+				84F83C2B26F891520065AB0F /* Repositories */,
+				84D03D4126F75B1B00DABF34 /* ListsItems */,
+				845AF36026F20F7B00D8F059 /* Network */,
 				84477FAA26F06F0100A568C6 /* PreciousMetalsPricesApp.swift */,
+				845AF35326F1FAF100D8F059 /* Models */,
 				84477FAC26F06F0100A568C6 /* ContentView.swift */,
+				8459920426F098DC001BC64F /* Localizable.strings */,
 				84477FAE26F06F0200A568C6 /* Assets.xcassets */,
-				84477FB326F06F0200A568C6 /* Info.plist */,
+				84926FB0271544BC00DC6C42 /* Info.plist */,
 				84477FB026F06F0200A568C6 /* Preview Content */,
+				8450A90427144A6400022934 /* Launch Screen.storyboard */,
 			);
 			path = PreciousMetalsPrices;
 			sourceTree = "<group>";
@@ -128,6 +188,65 @@
 				84477FC926F06F0300A568C6 /* Info.plist */,
 			);
 			path = PreciousMetalsPricesUITests;
+			sourceTree = "<group>";
+		};
+		845AF35326F1FAF100D8F059 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				845AF35426F1FB5B00D8F059 /* PricesData.swift */,
+				845AF35A26F1FE7800D8F059 /* SilverPricesList.swift */,
+				845AF35C26F2058300D8F059 /* MetalsPricesList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		845AF36026F20F7B00D8F059 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				845AF35E26F20F4F00D8F059 /* DataLoad.swift */,
+				845AF36126F20F9F00D8F059 /* LinkGenerator.swift */,
+				848FA20127152B33009D60BB /* Reachability.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		84D03D4126F75B1B00DABF34 /* ListsItems */ = {
+			isa = PBXGroup;
+			children = (
+				84D03D4226F75B3A00DABF34 /* SilverItem.swift */,
+				844939D826F84599004C754D /* MetalItem.swift */,
+			);
+			path = ListsItems;
+			sourceTree = "<group>";
+		};
+		84E9965E26F9BF3400A46461 /* UIAdds */ = {
+			isa = PBXGroup;
+			children = (
+				844939DA26F84D6F004C754D /* Divider.swift */,
+				844939DC26F85061004C754D /* DataList.swift */,
+				84E9966226F9BFE600A46461 /* DatePickerDialog.swift */,
+				84A1ED1D2713E90C00C10D96 /* RoundCornersShape.swift */,
+				848FA20327152DDE009D60BB /* LoadingWindow.swift */,
+				848FA20527153135009D60BB /* NoNetWindow.swift */,
+			);
+			path = UIAdds;
+			sourceTree = "<group>";
+		};
+		84E9965F26F9BF5A00A46461 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				84E9966026F9BFA100A46461 /* AppObservables.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		84F83C2B26F891520065AB0F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				84D7902626F865FD009642AE /* Converters.swift */,
+				84F83C2C26F8917A0065AB0F /* DateReturn.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +334,10 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				de,
+				fr,
+				es,
 			);
 			mainGroup = 84477F9E26F06F0100A568C6;
 			productRefGroup = 84477FA826F06F0100A568C6 /* Products */;
@@ -234,7 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84477FB226F06F0200A568C6 /* Preview Assets.xcassets in Resources */,
+				8459920226F098DC001BC64F /* Localizable.strings in Resources */,
+				8450A90527144A6400022934 /* Launch Screen.storyboard in Resources */,
 				84477FAF26F06F0200A568C6 /* Assets.xcassets in Resources */,
+				84926FBA27154DEF00DC6C42 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +385,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844939DE26F850E0004C754D /* DataList.swift in Sources */,
+				844939D926F84599004C754D /* MetalItem.swift in Sources */,
+				848FA20627153135009D60BB /* NoNetWindow.swift in Sources */,
+				84D7902726F865FD009642AE /* Converters.swift in Sources */,
+				845AF35B26F1FE7800D8F059 /* SilverPricesList.swift in Sources */,
+				84E9966126F9BFA100A46461 /* AppObservables.swift in Sources */,
+				845AF36226F20F9F00D8F059 /* LinkGenerator.swift in Sources */,
+				848FA20227152B33009D60BB /* Reachability.swift in Sources */,
 				84477FAD26F06F0100A568C6 /* ContentView.swift in Sources */,
+				84A1ED1E2713E90C00C10D96 /* RoundCornersShape.swift in Sources */,
+				845AF35D26F2058300D8F059 /* MetalsPricesList.swift in Sources */,
+				84F83C2D26F8917A0065AB0F /* DateReturn.swift in Sources */,
+				845AF35F26F20F4F00D8F059 /* DataLoad.swift in Sources */,
 				84477FAB26F06F0100A568C6 /* PreciousMetalsPricesApp.swift in Sources */,
+				844939DB26F84D6F004C754D /* Divider.swift in Sources */,
+				848FA20427152DDE009D60BB /* LoadingWindow.swift in Sources */,
+				845AF35526F1FB5B00D8F059 /* PricesData.swift in Sources */,
+				84D03D4326F75B3A00DABF34 /* SilverItem.swift in Sources */,
+				84E9966326F9BFE600A46461 /* DatePickerDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +438,53 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		8459920426F098DC001BC64F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8459920326F098DC001BC64F /* en */,
+				8459920526F09925001BC64F /* ru */,
+				84926FBF27154F0A00DC6C42 /* de */,
+				84926FC22715506700DC6C42 /* fr */,
+				84926FC5271551C000DC6C42 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		84926FB0271544BC00DC6C42 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84926FAF271544BC00DC6C42 /* Base */,
+				84926FC027154F0A00DC6C42 /* de */,
+				84926FC32715506700DC6C42 /* fr */,
+				84926FC6271551C000DC6C42 /* es */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		84926FBC27154DEF00DC6C42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84926FBB27154DEF00DC6C42 /* ru */,
+				84926FBD27154DF300DC6C42 /* en */,
+				84926FBE27154F0A00DC6C42 /* de */,
+				84926FC12715506700DC6C42 /* fr */,
+				84926FC4271551C000DC6C42 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		84477FCA26F06F0300A568C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_TARGET_STICKERS_ICON_ROLE = "host-app";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -361,6 +546,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_TARGET_STICKERS_ICON_ROLE = "host-app";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

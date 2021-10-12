@@ -12,6 +12,7 @@ struct PreciousMetalsPricesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AppObservables())
         }
     }
 }
